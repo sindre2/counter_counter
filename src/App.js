@@ -1,12 +1,11 @@
-import './App.css';
+import "./App.css";
 import { Route, Link, Routes } from "react-router-dom";
 import { OnePage } from "./pages/OnePage";
 import { TwoPage } from "./pages/TwoPage";
-import { useState } from "react"
-import { CounterContext } from "./pages/components/CounterContext"
+import { useState } from "react";
+import { CounterContext } from "./pages/components/CounterContext";
 
 function App() {
-
   let initialCount = 0;
   const [value, setValue] = useState(initialCount);
 
